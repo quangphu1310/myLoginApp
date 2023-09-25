@@ -7,17 +7,7 @@
     android:background="@drawable/back"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
-        android:layout_below="@+id/signin"
-        android:layout_marginTop="-10dp"
-        android:text="Trần Công Quang Phú\n21115053120339"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
-      android:textSize="20sp" />
 
     <TextView
         android:id="@+id/signin"
@@ -32,7 +22,16 @@
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold" />
-
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:layout_marginTop="-10dp"
+        android:text="Trần Công Quang Phú\n21115053120339"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
     <EditText
         android:id="@+id/username"
         android:layout_width="match_parent"
